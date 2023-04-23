@@ -7,32 +7,15 @@
   <title>My Portfolio</title>
 </head>
 <body>
-  <header>
-    <div class="header-content container">
-      <div class="header-avatar">
+  <header class="container">
+    <div class="header-content row justify-content-between">
+      <div class="header-avatar col-4">
         <figure>
           <img src="./assets/img/photoTest.jpg" alt="my avatar" width="200" height="200">
           <figcaptionn>Hey, I'm Dmitry</figcaptionn>
         </figure>
       </div>
-      <div class="header-description">
-        <span>This is my portfolio and here is my social</span>
-        <nav>
-          <a href="#" class="social-item">
-            Twitter
-            <img src="./assets/img/icons/twitter.svg" alt="twitter icon">
-          </a>
-          <a href="#" class="social-item">
-            LinkedIn
-            <img src="./assets/img/icons/in.svg" alt="linkedin icon">
-          </a>
-          <a href="#" class="social-item">
-            Telegram
-            <img src="./assets/img/icons/telegram.svg" alt="telegram icon">
-          </a>
-        </nav>
-      </div>
-      <div class="lang-menu">
+      <div class="lang-menu col-4">
         <a href="#">
           <span>EN</span>
         </a>
@@ -40,6 +23,25 @@
         <a href="#">
           <span>RU</span>
         </a>
+      </div>
+    </div>
+    <div class="social row">
+      <div class="header-description col">
+        <span>This is my portfolio and here is my social</span>
+        <nav class="row justify-content-between">
+          <a href="#" class="social-item col-3">
+            <img src="./assets/img/icons/twitter.svg" alt="twitter icon">
+            Twitter
+          </a>
+          <a href="#" class="social-item col-3">
+            <img src="./assets/img/icons/in.svg" alt="linkedin icon">
+            LinkedIn
+          </a>
+          <a href="#" class="social-item col-3">
+            <img src="./assets/img/icons/telegram.svg" alt="telegram icon">
+            Telegram
+          </a>
+        </nav>
       </div>
     </div>
   </header>

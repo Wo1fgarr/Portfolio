@@ -10,12 +10,26 @@ html {
     color: var(--font-color);
 }
 
+.lang-menu {
+  text-align: end;
+}
+
 p {
   font-size: 20px;
 }
 
-.header-description .social-item {
+.social-item {
+  display: flex;
+  justify-content: center;
+}
+
+.social-item span {
+  text-align: center;
+}
+
+.social-item img {
   display: block;
+  margin-right: 10px;
   width: 32px;
   height: 32px;
 }
