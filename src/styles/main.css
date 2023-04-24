@@ -1,2 +1,46 @@
 @import url("./bootstrap.min.css");
 
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header */
+
+.header-container {
+  height: 100px;
+}
+
+.header-container  {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu ul {
+  display: flex;
+  margin: 0;
+}
+
+/* Main */
+
+.about-me-heading {
+  text-align: center;
+}
+
+.about-me-info span {
+  font-weight: 600;
+}
+
+.about-me-photo {
+  text-align: center;
+}
+
+.about-me-photo img {
+  padding: 10px;
+  background: #75b1c4;
+  box-shadow: 0 0 8px 8px white inset;
+}
+
