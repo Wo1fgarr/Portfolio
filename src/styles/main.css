@@ -8,7 +8,14 @@ li {
   list-style: none;
 }
 
+span {
+  font-weight: 600;
+}
+
 /* Header */
+header {
+  border-bottom: 2px solid #75b1c4;
+}
 
 .header-container {
   height: 100px;
@@ -25,16 +32,18 @@ li {
 }
 
 /* Main */
+main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 .about-me-heading {
   text-align: center;
 }
 
-.about-me-info span {
-  font-weight: 600;
-}
 
-.about-me-photo {
+
+main h2 {
   text-align: center;
 }
 
@@ -42,5 +51,20 @@ li {
   padding: 10px;
   background: #75b1c4;
   box-shadow: 0 0 8px 8px white inset;
+}
+
+hr {
+  margin: 20px 0 20px 0;
+}
+
+.work-history-list li {
+  list-style: disc;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 20px;
+  border-top: 2px solid #75b1c4;
 }
 
